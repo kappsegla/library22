@@ -16,4 +16,8 @@ public class CalculatorTest {
         assertEquals(4, Calculator.mul(2, 2));
     }
 
+    @Test
+    void subReturnsDiff() {
+        assertEquals(1, Calculator.sub(2, 1));
+    }
 }
