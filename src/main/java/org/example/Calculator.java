@@ -9,7 +9,7 @@ public class Calculator {
         return 4;
     }
 
-    public static int sub(int i, int i1) {
-        return i - i1;
+    public static int sub(int a, int b) {
+        return a - b;
     }
 }
