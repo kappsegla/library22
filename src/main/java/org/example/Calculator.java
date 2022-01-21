@@ -8,4 +8,8 @@ public class Calculator {
     public static int mul(int a, int b) {
         return 4;
     }
+
+    public static int sub(int i, int i1) {
+        return i - i1;
+    }
 }
