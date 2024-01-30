@@ -17,6 +17,11 @@ public class CalculatorTest {
     }
 
     @Test
+    void mul3And3Returns9() {
+        assertEquals(9, Calculator.mul(3, 3));
+    }
+
+    @Test
     void subReturnsDiff() {
         assertEquals(1, Calculator.sub(2, 1));
     }
