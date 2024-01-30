@@ -20,4 +20,9 @@ public class CalculatorTest {
     void subReturnsDiff() {
         assertEquals(1, Calculator.sub(2, 1));
     }
+
+    @Test
+    void divReturnsQuota() {
+        assertEquals(2, Calculator.div(10,5));
+    }
 }
